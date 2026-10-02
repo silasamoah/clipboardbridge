@@ -1,0 +1,20 @@
+{
+  "name": "clipboardbridge",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first browser clipboard bridge over WebRTC",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-smoke.mjs"
+  },
+  "dependencies": {
+    "qrcode-svg": "^1.1.0",
+    "ws": "^8.18.3"
+  }
+}
