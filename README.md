@@ -2,6 +2,8 @@
 
 A local-first browser text clipboard bridge built with Node.js, WebSockets and vanilla HTML/CSS/JS. Pair two devices by room code or QR link; text travels directly over a WebRTC DataChannel. Sending and copying are manual.
 
+<img width="433" height="417" alt="image" src="https://github.com/user-attachments/assets/284460ad-e12a-4768-be08-32459e20e70f" />
+
 ## Start
 
 Requires Node.js 22+ and npm. From this project folder:
